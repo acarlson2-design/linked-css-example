@@ -59,6 +59,7 @@
 .container {
    max-width: 800px;
    margin: 0 auto 0 auto; 
+
 }
 
 .card-grid {
@@ -66,7 +67,78 @@
    gap: 20px; 
 }
 
+#benefits.dark-section {
+   background-color: var(--dark);
+   
+}
+
+#benefits.dark-section .section-title {
+   color: var(--white);
+}
+
 .benefit-list {
    display: flex;
    gap: 20px;
+   color: var(--white);
+ 
+}
+
+.benefit-list .benefit {
+   display: flex;
+   flex-direction: column;
+   
+}
+
+.benefit-list strong {
+   color: var(--secondary);
+}
+
+.two-column {
+   display: flex;
+   margin-top: 80px;
+   
+}
+
+.two-column.column {
+   margin: 30px;
+}
+
+#services {
+   background-color: var(--light);
+
+}
+
+.card {
+   background-color: var(--white);
+   padding: 16px;
+}
+
+.card.featured-card {
+   background-color: var(--white);
+   border-top: 2px solid var(--accent);
+}
+
+.feature-layout {
+   display: flex;
+   gap: 20px;
+   background-color: var(--white);
+
+}
+
+.feature-content .eyebrow {
+   color: var(--secondary);
+}
+
+#work .section-title {
+   color: var(--secondary);
+
+}
+
+#testimonial.highlight {
+   background-color: var(--light);
+   text-align: center;
+}
+
+#testimonial.highlight blockquote {
+   font-weight: bold;
 }
