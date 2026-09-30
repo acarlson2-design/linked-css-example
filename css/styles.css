@@ -3,3 +3,70 @@
    First task: import colors.css.
 */
 @import url(./colors.css);
+
+.body {
+   background-color: var(--light);
+}
+.logo {
+
+   color: var(--primary); 
+   font-size: 24px;
+   font-weight: bold;
+
+}
+
+#primary-nav {
+   margin-top: 10px;
+}
+
+#primary-nav a {
+   color: var(--primary);
+   font-weight: bold;
+   text-decoration: none;
+}
+
+#hero {
+   background-color: var(--primary);
+   color: var(--light);
+}
+
+#hero .eyebrow {
+   color: var(--accent);
+}
+
+.button {
+   padding: 10px;
+   background-color: var(--accent);
+   color: var(--white);
+   text-decoration: none;
+   font-weight: bold;
+   margin-right: 8px;
+}
+
+.button-secondary {
+   background-color: var(--white);
+   color: var(--primary);
+}
+
+#hero h1 {
+   width: 650px;
+}
+
+#hero .hero-copy {
+   width: 650px;
+}
+
+.container {
+   max-width: 800px;
+   margin: 0 auto 0 auto; 
+}
+
+.card-grid {
+   display: flex;
+   gap: 20px; 
+}
+
+.benefit-list {
+   display: flex;
+   gap: 20px;
+}
