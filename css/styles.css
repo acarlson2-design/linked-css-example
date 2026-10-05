@@ -205,18 +205,23 @@ width: 50%;
 .site-footer {
    background-color: var(--dark);
    color: var(--white);
-   display: flex;
-   flex-direction: row;
    text-decoration: none;
 
 }
-.footer-layout {
-   text-decoration: none;
+.container .footer-layout {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  
 }
+
 
 .footer-context {
    text-decoration: none;
    color: var(--white);
    font-weight: bold;
+
+}
+.container.footer-layout .two-column {
 
 }
